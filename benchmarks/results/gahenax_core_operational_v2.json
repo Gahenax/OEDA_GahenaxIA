@@ -1,0 +1,106 @@
+{
+  "summary": {
+    "engine_version": "GahenaxCore-v1.0",
+    "contract_version": "GahenaxOutput-v1.0",
+    "cases": 5,
+    "latency_p50_ms": 0.0,
+    "latency_p95_ms": 0.0,
+    "contract_pass_rate": 1.0,
+    "work_units_median": 40.0,
+    "work_units_p95": 40.0,
+    "ua_spend_median": 15.0,
+    "delta_s_per_ua_median": 0.0,
+    "h_rigidity_p95": 1e-15,
+    "delta_work_median_pct": null,
+    "delta_latency_p95_pct": null
+  },
+  "gates": [
+    {
+      "name": "A2.contract_100pct",
+      "ok": true,
+      "details": "pass_rate=1.000"
+    },
+    {
+      "name": "A3.h_rigidity_p95",
+      "ok": true,
+      "details": "H_p95=1.000e-15"
+    }
+  ],
+  "records": [
+    {
+      "case_id": "G001",
+      "timestamp": "2026-02-20T01:21:12.223282+00:00",
+      "engine_version": "GahenaxCore-v1.0",
+      "contract_version": "GahenaxOutput-v1.0",
+      "seed": 1337,
+      "latency_ms": 0,
+      "contract_valid": true,
+      "ua_spend": 10,
+      "delta_s": 0.0,
+      "delta_s_per_ua": 0.0,
+      "h_rigidity": 1e-15,
+      "work_units": 40,
+      "evidence_hash": "2a9574b1e759e450c13bf260b12a3ad63d09c765f5d9def5d9e01f7500832e8f"
+    },
+    {
+      "case_id": "G002",
+      "timestamp": "2026-02-20T01:21:12.233585+00:00",
+      "engine_version": "GahenaxCore-v1.0",
+      "contract_version": "GahenaxOutput-v1.0",
+      "seed": 1338,
+      "latency_ms": 0,
+      "contract_valid": true,
+      "ua_spend": 15,
+      "delta_s": 0.0,
+      "delta_s_per_ua": 0.0,
+      "h_rigidity": 1e-15,
+      "work_units": 40,
+      "evidence_hash": "a75903af309d7ab982372191b79674575e6395c86ae657b2023cb826e051ff41"
+    },
+    {
+      "case_id": "G003",
+      "timestamp": "2026-02-20T01:21:12.245043+00:00",
+      "engine_version": "GahenaxCore-v1.0",
+      "contract_version": "GahenaxOutput-v1.0",
+      "seed": 1339,
+      "latency_ms": 0,
+      "contract_valid": true,
+      "ua_spend": 20,
+      "delta_s": 0.0,
+      "delta_s_per_ua": 0.0,
+      "h_rigidity": 1e-15,
+      "work_units": 40,
+      "evidence_hash": "f3bba1f65c8df8a58d5fd67a87d6e5db0e9d8dde2b61523295802ccb6d39eb15"
+    },
+    {
+      "case_id": "G004",
+      "timestamp": "2026-02-20T01:21:12.259813+00:00",
+      "engine_version": "GahenaxCore-v1.0",
+      "contract_version": "GahenaxOutput-v1.0",
+      "seed": 1340,
+      "latency_ms": 0,
+      "contract_valid": true,
+      "ua_spend": 5,
+      "delta_s": 0.0,
+      "delta_s_per_ua": 0.0,
+      "h_rigidity": 1e-15,
+      "work_units": 40,
+      "evidence_hash": "f0105bb85d94e5cfa03f242afbc9f1317dbc64c319e1ebdb8ad954daf4b643dd"
+    },
+    {
+      "case_id": "G005",
+      "timestamp": "2026-02-20T01:21:12.273069+00:00",
+      "engine_version": "GahenaxCore-v1.0",
+      "contract_version": "GahenaxOutput-v1.0",
+      "seed": 1341,
+      "latency_ms": 0,
+      "contract_valid": true,
+      "ua_spend": 30,
+      "delta_s": 0.0,
+      "delta_s_per_ua": 0.0,
+      "h_rigidity": 1e-15,
+      "work_units": 40,
+      "evidence_hash": "e83bef72fab6e3c7b943f9986f287e15bcd3525fa9db13e94e1227e59ca6248c"
+    }
+  ]
+}

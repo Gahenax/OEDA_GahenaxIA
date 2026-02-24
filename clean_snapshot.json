@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-02-20T01:54:53.884967+00:00",
+  "row_count": 5,
+  "head_hash": "4b08a304a1aeb91f3805557a4adc285612f8416ea70b0ed8510a6eeeb7007d7c",
+  "tail_hash": "debb1afb41b924fa0079b79f6f8c7b382512d76f4fff330fe8bb2b0ed8fddcbb",
+  "pass_rate": 1.0,
+  "latency_p50": 0.19619999511633068,
+  "latency_p95": 0.41110000165645033,
+  "ua_median": 15,
+  "dsua_median": 0.0,
+  "git_commit": "unknown",
+  "snapshot_hash": "ac2800ede40b237a17d1620c4e4aec2a952e533970118e5f8ce9e1bb1993fed0"
+}

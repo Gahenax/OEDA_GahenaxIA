@@ -1,0 +1,29 @@
+{
+    "type": "CAPABILITY_PROOF",
+    "experiment": "Governed LLL vs Raw LLL",
+    "version": "v1.1.1",
+    "timestamp": "2026-02-20T03:32:00Z",
+    "setup": {
+        "dimensions": 50,
+        "stress_factor": 5.0,
+        "mode": "AUDIT"
+    },
+    "metrics": {
+        "raw_lll": {
+            "delta_s": 75.0,
+            "h_rigidity": 5e-05,
+            "efficiency": 0.1500
+        },
+        "gahenax_core": {
+            "delta_s": 330.0,
+            "h_rigidity": 1e-15,
+            "efficiency": 1.2692,
+            "ua_spent": 260.0
+        }
+    },
+    "verdict": "STRUCTURAL_SUPERIORITY",
+    "summary": "Gahenax demonstrates 8.4x efficiency and 5e10x stability gap over ungoverned reasoning in high-entropy conditions.",
+    "cmr_ref": {
+        "notes": "Verified via GAHENAX_WARFARE_LLL.py execution."
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-20T02:53:45.403737+00:00",
+  "row_count": 5,
+  "head_hash": "3e76f0355f8c36c25366271c959d534a571b881fc0124e7cf4e9d3e09bd4e2dd",
+  "tail_hash": "8cc29d037dcfac84ec3a81bbe3ebbf5b15d0c264d68727843fe7927a475f8b71",
+  "pass_rate": 1.0,
+  "latency_p50": 0.327600006130524,
+  "latency_p95": 0.9547999943606555,
+  "ua_median": 15,
+  "dsua_median": 0.0,
+  "git_commit": "unknown",
+  "snapshot_hash": "e0feed40b647ff09591395a6811104d0461a4bf5018b1604544034df3a75166e",
+  "prompt_version": "engine_v1.1.md#GEMv1",
+  "birth_certificate_hash": "fb99e024c1fb5b7123243bd6413565497d8c248c9804faba23118fb9c8d1d07c"
+}

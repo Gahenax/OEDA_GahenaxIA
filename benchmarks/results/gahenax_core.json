@@ -1,0 +1,42 @@
+{
+    "timestamp": 1771548225.0820773,
+    "engine": "Gahenax_Core_V1",
+    "summary": {
+        "avg_latency": 0.023603439331054688,
+        "avg_efficiency": 0.0
+    },
+    "detailed": [
+        {
+            "case_id": "CASE_001",
+            "latency_ms": 0.034809112548828125,
+            "ua_spent": 20.0,
+            "efficiency": 0.0,
+            "verdict_strength": "conditional",
+            "assumptions_reduced": false
+        },
+        {
+            "case_id": "CASE_002",
+            "latency_ms": 0.02765655517578125,
+            "ua_spent": 20.0,
+            "efficiency": 0.0,
+            "verdict_strength": "conditional",
+            "assumptions_reduced": false
+        },
+        {
+            "case_id": "CASE_003",
+            "latency_ms": 0.017881393432617188,
+            "ua_spent": 20.0,
+            "efficiency": 0.0,
+            "verdict_strength": "conditional",
+            "assumptions_reduced": false
+        },
+        {
+            "case_id": "CASE_004",
+            "latency_ms": 0.014066696166992188,
+            "ua_spent": 20.0,
+            "efficiency": 0.0,
+            "verdict_strength": "conditional",
+            "assumptions_reduced": false
+        }
+    ]
+}

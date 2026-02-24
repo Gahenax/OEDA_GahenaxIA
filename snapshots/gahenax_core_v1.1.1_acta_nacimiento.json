@@ -1,0 +1,25 @@
+{
+  "type": "ACTA_NACIMIENTO",
+  "version": "v1.1.1",
+  "timestamp": "2026-02-20T03:04:20.326248+00:00",
+  "sem\u00e1foro_protocol": "Chronos-Hodge v2.0",
+  "summary": {
+    "verdict": "SYSTEM HEALTH: OPTIMAL",
+    "counts": {
+      "GREEN": 5,
+      "YELLOW": 0,
+      "ORANGE": 0,
+      "RED": 0
+    }
+  },
+  "metrics": {
+    "h_rigidity": 1e-15,
+    "input_fingerprint_status": "CNI_VERIFIED"
+  },
+  "ledger_window": {
+    "from_id": 1,
+    "to_id": 5
+  },
+  "snapshot_ref": "e0feed40b647ff09591395a6811104d0461a4bf5018b1604544034df3a75166e",
+  "acta_hash": "fb99e024c1fb5b7123243bd6413565497d8c248c9804faba23118fb9c8d1d07c"
+}

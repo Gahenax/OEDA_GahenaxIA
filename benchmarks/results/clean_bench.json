@@ -1,0 +1,30 @@
+{
+  "summary": {
+    "engine_version": "GahenaxCore-v1.0",
+    "contract_version": "GahenaxOutput-v1.0",
+    "cases": 5,
+    "latency_p50_ms": 0.19619999511633068,
+    "latency_p95_ms": 0.37566000246442854,
+    "contract_pass_rate": 1.0,
+    "work_units_median": 40.0,
+    "work_units_p95": 40.0,
+    "ua_spend_median": 15.0,
+    "delta_s_per_ua_median": 0.0,
+    "h_rigidity_p95": 1e-15,
+    "delta_work_median_pct": null,
+    "delta_latency_p95_pct": null
+  },
+  "gates": [
+    {
+      "name": "A2.contract_100pct",
+      "ok": true,
+      "details": "pass_rate=1.000"
+    },
+    {
+      "name": "A3.h_rigidity_p95",
+      "ok": true,
+      "details": "H_p95=1.000e-15"
+    }
+  ],
+  "records_count": 5
+}

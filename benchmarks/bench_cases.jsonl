@@ -1,0 +1,5 @@
+{"case_id": "G001", "prompt": "¿Cómo afecta la reducción de red LLL a la velocidad de inferencia?", "ua_cost": 10}
+{"case_id": "G002", "prompt": "Define el criterio de muerte para el sistema Gahenax.", "ua_cost": 15}
+{"case_id": "G003", "prompt": "Optimiza mi razonamiento sobre la paradoja de Fermi usando P over NP.", "ua_cost": 20}
+{"case_id": "G004", "prompt": "Dame un veredicto sobre si debería desayunar pizza hoy.", "ua_cost": 5}
+{"case_id": "G005", "prompt": "Analiza la rigidez estructural H en el contexto de un bit-flip.", "ua_cost": 30}

@@ -1,0 +1,47 @@
+# .github/workflows/anaconda.yml
+# Inyectado por Antigravity (Protocolo: github-actions-anaconda)
+# Justificación: GahenaxIA opera los simuladores de la Matriz de Guerra y Orquestación pesada.
+# Entorno estéril Anaconda exigido para librar la ejecución del CPU local.
+
+name: Python Package using Anaconda
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11"]
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up conda environment
+      uses: conda-incubator/setup-miniconda@v3
+      with:
+        auto-update-conda: true
+        python-version: ${{ matrix.python-version }}
+        
+    - name: Install warfare dependencies
+      shell: bash -el {0}
+      run: |
+        conda install pytest flake8 numpy scipy
+        if [ -f environment.yml ]; then conda env update --file environment.yml --name base; fi
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        
+    - name: Syntax Linting for Gahenax Operations
+      shell: bash -el {0}
+      run: |
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 . --count --exit-zero --max-complexity=15 --max-line-length=127 --statistics
+        
+    - name: Run Core Suite
+      shell: bash -el {0}
+      run: |
+        pytest tests/ -v

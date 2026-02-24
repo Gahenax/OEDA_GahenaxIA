@@ -1,0 +1,18 @@
+# .pre-commit-config.yaml
+# Configuración Inyectada por Antigravity
+# Proposito: Abortar `git commit` si el código no cumple lineamientos PEP8, tiene trailing whitespaces o YAML corrupto en la guerra algorítmica.
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-yaml
+    -   id: check-added-large-files
+
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff substituye a Flake8, Isort y Black. Es 10-100x más rápido.
+    rev: v0.0.287
+    hooks:
+    -   id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
